@@ -1,0 +1,482 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/1155050.jpg')
+
+}
+
+
+.navbar {
+  height: 80px !important;
+  background-color: rgba(154, 199, 112, 1) !important;
+  box-shadow: 0 4px 15px #3f3e3e !important;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; 
+  box-sizing: border-box;
+  
+}
+
+
+.carosello {
+  margin-top: 80px;
+}
+
+.h1{
+  font-family: "Edu AU VIC WA NT Hand", cursive !important;
+  position: fixed;
+  left: 550px;
+
+}
+
+.navbar .nav-link {
+  font-size: larger;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 0 15px; 
+  white-space: nowrap; 
+  
+  
+}
+
+
+
+
+.img1 {
+  width: 100%;
+  height: 400px !important;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px
+}
+
+.h3 {
+  color: black !important;
+  background-color: rgba(154, 199, 112, 0.8) !important;
+  width: 250px;
+  margin-left: 350px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 0px !important;
+}
+
+.p {
+  color: black;
+  height: 40px;
+  background-color: rgba(154, 199, 112, 0.8) !important;
+  width: 600px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  padding-left: 10px;
+  font-weight: 450;
+}
+
+.contenitoreinfo {
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.imginfo {
+  height: 300px;
+  width: 420px;
+  border-radius: 20px;
+  margin-left: 20px;
+  box-shadow: 0 4px 15px #3f3e3e !important
+  
+}
+
+.cardinfo {
+  background-color: rgba(154, 199, 112, 0.4) !important;
+  border: 1px solid black !important;
+  box-shadow: 0 4px 15px #3f3e3e !important;
+  margin-left: 10px;
+  margin-right: -20px;
+  
+}
+
+.contenitoreinfo2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.bottonecarrello, .bottonecarrello2, .bottoneaccedi, .bottoneaccedi2 {
+  background-color: transparent !important;
+  border-color: #000 !important;
+  color: black !important;
+  width: 200px;
+  margin-left: 45px;
+}
+
+.bottonecarrello:hover, .bottonecarrello2:hover, .bottoneaccedi:hover, .bottoneaccedi2:hover {
+  background-color: #a89c9c !important;
+}
+
+.cardinfo, .cardintera, .cardinfo2 {
+  box-shadow: 0 4px 15px #3f3e3e !important;
+}
+
+.cardinfo, .cardintera {
+  background-color: rgba(154, 199, 112, 0.4) !important;
+  
+}
+
+.cardinfo2 {
+  background-color: rgba(181, 190, 173, 0.4) !important;
+  border: 1px solid rgb(114, 100, 100) !important;
+}
+
+
+
+.contenutoinfo2 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 10%;
+  
+}
+.cardinfo2 {
+  height: 200px !important;
+  width: 200px;
+  border-radius: 50% !important;
+  background-color: rgba(181, 190, 173, 0.4) !important;
+  border: 1px solid rgb(114, 100, 100) !important;
+  box-shadow: 0 4px 15px #3f3e3e !important
+  
+
+}
+
+.cardinfo2 .card-title {
+  font-size: 22px; 
+  color: #201f1f; 
+  font-weight: bold; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+.separator {
+  border: 1px solid rgb(46, 43, 43);
+  margin-top: 30px;
+  margin-bottom: -20px;
+  box-shadow: 0 4px 15px #3f3e3e !important
+}
+
+.contenutobackend {
+  display: flex;
+}
+
+.inputbackend form input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.inputbackend {
+  margin-left: 300px;
+}
+
+.carousel {
+  margin-bottom: 50px; 
+}
+
+.header-with-lines {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  height: 100px;
+  background-color: rgba(154, 199, 112, 0.5);
+  margin-top: -30px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 15px #3f3e3e !important
+
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #000; 
+}
+
+.title {
+  margin: 0 10px; 
+  font-size: 30px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.vini {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  height: 30px;
+  margin-left: 280px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.titolovini {
+  margin: 0 10px; 
+  font-size: 30px;
+  color: #141414;
+}
+
+.linea {
+  background-color: #000;
+  height: 2px;
+  width: 280px;
+}
+.contenitorecard {
+  margin-left: 30px;
+}
+
+.imgcard {
+  height: 300px !important;
+}
+
+.cardintera {
+  background-color: rgba(154, 199, 112, 0.9) !important;
+  box-shadow: 0 4px 15px #3f3e3e !important
+}
+
+.cardintera:hover {
+  cursor: pointer !important;
+}
+
+.list-item-price,
+.list-item-year {
+  background-color: rgba(154, 199, 112, 0.5) !important;
+}
+
+.list-item-price {
+  margin-top: -10px !important;
+  font-weight: bold;
+}
+
+.card {
+  --bs-card-border-color: none !important
+}
+
+.list-group {
+  --bs-list-group-border-color: none !important
+}
+
+.list-group-flush {
+  margin-top: -20px !important;
+}
+
+.contenitorebottone {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  height: 30px;
+  margin-left: 350px;
+}
+
+.lineabottone {
+  background-color: #cabffa !important;
+  height: 2px;
+  width: 200px;
+}
+
+
+.bottonedipiù {
+  background-color: transparent  !important;
+  border: none !important;
+  color: #cabffa !important;
+  font-size: larger !important;
+  font-weight: bold !important;
+}
+
+.vinirossi {
+  margin-top: 30px !important;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: rgba(154, 199, 112, 0.8) !important;
+
+}
+
+.titolovinirossi {
+  color: #0f0f0f;
+  margin: 0 10px; 
+  font-size: 30px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 0.5s;
+}
+
+.carrello {
+  border: 1px solid black !important;
+  border-radius: 25px;
+  height: 40px;
+  width: 210px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 204, 129) !important;
+}
+
+.carrello:hover {
+  background-color: #b2cc3f !important;
+}
+
+.bottonecarrello {
+  background-color: transparent !important;
+  border-color: #000 !important;
+  color: black !important;
+  width: 200px;
+  margin-left: 45px
+}
+
+.bottonecarrello2 {
+  background-color: transparent !important;
+  border-color: #000 !important;
+  color: black !important;
+  width: 200px;
+  margin-left: 45px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bottonecarrello:hover,
+.bottonecarrello2:hover {
+  background-color: #a89c9c !important;
+}
+
+.bottoneregistrati{
+  margin-left: 200px !important;
+}
+
+.registrati {
+  height: 40px;
+  border-color: #389740 !important;
+  color: #000 !important;
+}
+
+.accedi {
+  border-color: #389740 !important;
+  color: #000 !important;
+
+}
+
+
+.registrati:hover {
+  background-color: #389740 !important;
+}
+
+.modalregister {
+  background-color: #389740 !important ;
+}
+
+.modalregisterhead {
+  background-color: #2b7931 !important  ;
+  color: white;
+}
+
+.input {
+  position: ;
+  right: 30px
+  
+}
+
+.modal {
+  --bs-modal-header-border-color: black !important; /* Imposta il colore del bordo a rosso */
+}
+
+.account {
+  margin-left: 470px !important;
+  margin-top: 1px !important;
+  height: 40px;
+  border-color: #389740 !important;
+  color: #000 !important;
+  margin-top: 6px;
+}
+
+.logout {
+  --bs-btn-hover-bg: #389740 !important;
+  border-color: #389740 !important;
+  color: #000 !important;
+
+}
+
+
+
+.btn-outline-primary {
+  --bs-btn-hover-bg: #389740 !important;
+}
+
+.cart-page {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px !important;
+  background-color: rgba(154, 199, 112, 1) !important;
+  border-radius: 25px;
+}
+
+
+.cart-page .list-group-item {
+  background-color: #d4edda; 
+  border: 1px solid #c3e6cb; 
+  margin-bottom: 10px;
+  border-radius: 0.25rem;
+}
+
+
+.cart-page .list-group-item .text-danger {
+  font-size: 14px;
+  padding: 0;
+  margin-left: 15px;
+}
+
+
+.cart-page h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart-page .btn-primary {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.cart-page a {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 16px;
+}
+
+.account-page {
+  margin-top: 100px;
+  margin-left: 30px;
+  background-color: #d4edda;
+  border-radius: 20px;
+  width: 400px;
+  padding-left: 10px;
+  background-color: rgb(154, 199, 112, 1)
+}
+
+.account-page h1 {
+  
+  width: 300px;
+}
